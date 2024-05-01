@@ -1,0 +1,48 @@
+.resume {
+  height: 100%;
+}
+.timeline {
+  //   display: flex;
+  width: 100%;
+  padding: 20px;
+  align-items: center;
+
+  &_education {
+    gap: 2rem;
+    &_header-text {
+      display: inline-block;
+      color: var(--main-color);
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1rem;
+      letter-spacing: 0.5px;
+      position: relative;
+      text-transform: uppercase;
+      padding: 5px 10px;
+      border-bottom: 2px solid var(--main-color);
+    }
+    &_first-element {
+      padding-bottom: 30px;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }
+}
+
+.vertical_timeline_element_title-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  h3 {
+    font-size: 16px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 18px;
+  }
+}
